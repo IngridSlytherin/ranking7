@@ -1,0 +1,50 @@
+/* Flex Container */
+#container {
+	max-width: 600px;
+	height: 400px;
+	margin: 0 auto;
+	display: flex;
+	border: 1px solid #ccc;
+	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-end; /*bottom to top*/
+}
+@media screen and (max-width: 992px) and (min-width: 
+
+200px;) {
+  #container {
+    flex: 50%;
+  }
+}
+
+/*Animação */
+.ranking { animation: animacao 5s ease forwards 
+
+alternate; 
+}
+
+@keyframes animacao {
+   from { 
+    height: 5%;
+  }
+   to { 
+    height: 75%;
+  }
+}
+
+/* Avatar */
+#container2 {
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.item {
+	width: 50px;
+	height: 50px;
+	border-radius: 90px;
+	
+	/*flex: 0;   flex valores 0 ou 1 */
+	
+} 
